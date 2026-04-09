@@ -1,0 +1,137 @@
+:root {
+  --vp-c-brand-1: #6ed1d8;
+  --vp-c-brand-2: #8bdfe4;
+  --vp-c-brand-3: #4bb3ba;
+  
+  --vp-c-bg: #09090b;
+  --vp-c-bg-alt: #0f1013;
+  --vp-c-bg-elv: #151619;
+  
+  --vp-c-border: #1f2025;
+  --vp-c-border-hard: #2c2e36;
+  
+  --vp-c-text-1: #e2e4e9;
+  --vp-c-text-2: #8a8f98;
+  --vp-c-text-3: #585c63;
+  
+  --vp-sidebar-width: 280px;
+
+  /* Custom Sidebar Active Link Background */
+  --vp-sidebar-bg-color: #09090b;
+  --vp-c-bg-soft: #121316;
+}
+
+body.dark {
+  --vp-c-bg: #09090b;
+  --vp-c-bg-alt: #0f1013;
+  --vp-c-bg-elv: #151619;
+}
+
+.VPDoc {
+  padding-bottom: 96px;
+}
+
+/* Make sidebar match the style */
+.VPSidebar {
+  background-color: var(--vp-c-bg);
+  border-right-color: transparent !important;
+}
+
+
+
+/* Nav Bar styling */
+.VPNavBar {
+  background-color: var(--vp-c-bg) !important;
+  border-bottom-color: transparent !important;
+}
+
+.VPNav {
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+.title {
+  font-weight: 700;
+}
+
+
+
+/* Header fonts and content text */
+h1 {
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+}
+
+/* Callout / Info styling to match 'Server prefix is set to ,' */
+.custom-callout {
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--vp-c-text-2);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.custom-callout code {
+  background-color: #1a1b1e;
+  border: 1px solid #2a2c30;
+  color: var(--vp-c-text-1);
+}
+
+/* Cards Grid container */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+/* Card Styling */
+.custom-card {
+  background-color: var(--vp-c-bg);
+  border: 1px solid #1c1c1f;
+  border-radius: 12px;
+  padding: 24px;
+  transition: border-color 0.2s, background-color 0.2s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.custom-card:hover {
+  background-color: var(--vp-c-bg-soft);
+  border-color: #2e2e33;
+}
+
+.card-icon {
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--vp-c-brand-1);
+  margin-bottom: 4px;
+}
+.card-icon svg {
+  width: 24px;
+  height: 24px;
+  color: var(--vp-c-brand-1) !important;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--vp-c-text-1);
+  margin: 0 !important;
+}
+
+.card-desc {
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0 !important;
+}
