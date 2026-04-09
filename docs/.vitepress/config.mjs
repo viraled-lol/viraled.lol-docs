@@ -4,9 +4,7 @@ export default defineConfig({
   title: "viraled.lol",
   description: "Content Creator Networking Platform",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg' }],
-    ['script', { defer: 'true', src: '/__/firebase/10.10.0/firebase-app-compat.js' }],
-    ['script', { defer: 'true', src: '/__/firebase/init.js' }]
+    ['link', { rel: 'icon', href: '/favicon.svg' }]
   ],
   appearance: 'force-dark', 
   themeConfig: {
