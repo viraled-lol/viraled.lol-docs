@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "viraled.lol",
   description: "Content Creator Networking Platform",
+  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg' }]
   ],

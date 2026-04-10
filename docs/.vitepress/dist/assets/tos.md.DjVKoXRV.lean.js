@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as t,ag as o}from"./chunks/framework.DXGyWiRo.js";const h=JSON.parse('{"title":"Terms of Service","description":"","frontmatter":{},"headers":[],"relativePath":"tos.md","filePath":"tos.md"}'),s={name:"tos.md"};function i(c,e,n,l,p,u){return r(),t("div",null,[...e[0]||(e[0]=[o("",14)])])}const m=a(s,[["render",i]]);export{h as __pageData,m as default};
